@@ -12,26 +12,27 @@ class ChessPieces(ABC):
 class at(ChessPieces):
     
     def show_move(self):
-        pass 
-    
+       print("L gider")
+       
     def show_count_in_board(self):
-        pass
+       print("4 tane fil vardir ") 
+
 
 
 
 class fil(ChessPieces):
     def show_move(self):
-        pass 
+        print("Çapraz gider") 
     
     def show_count_in_board(self):
-        pass
+        print("4 tane fil vardir ")
 
 
 
 class vezir(ChessPieces):
     
     def show_move(self):
-        pass 
-    
+        print("Çapraz ve düz sonsuz hareket eder")
+        
     def show_count_in_board(self):
-        pass
+        print("4 tane fil vardir ")

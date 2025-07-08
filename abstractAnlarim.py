@@ -15,7 +15,7 @@ class at(ChessPieces):
        print("L gider")
        
     def show_count_in_board(self):
-       print("4 tane fil vardir ") 
+       print("4 tane at vardir ") 
 
 
 
@@ -35,4 +35,19 @@ class vezir(ChessPieces):
         print("Çapraz ve düz sonsuz hareket eder")
         
     def show_count_in_board(self):
-        print("4 tane fil vardir ")
+        print("2 tane vezir vardir ")
+        
+
+
+
+if __name__ == '__main__' :
+      
+      
+    atimiz=at()
+    filimiz=fil()
+    vezirimiz=vezir()
+    
+    atimiz.show_move()
+    filimiz.show_count_in_board()
+    vezir.show_count_in_board()
+       
